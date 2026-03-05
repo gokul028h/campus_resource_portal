@@ -1,0 +1,79 @@
+# dependencies
+
+node_modules/
+client/node_modules/
+
+# production builds
+
+build/
+dist/
+client/build/
+
+# logs
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# environment variables
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# cache
+
+.cache/
+.parcel-cache/
+
+# coverage
+
+coverage/
+
+# temporary files
+
+*.tmp
+*.temp
+
+# python (if used for ML models)
+
+**pycache**/
+*.pyc
+*.pyo
+
+# dataset files
+
+datasets/
+data/
+*.zip
+*.tar
+*.gz
+
+# model checkpoints
+
+*.pt
+*.pth
+*.h5
+
+# misc
+
+*.bak
+*.swp
